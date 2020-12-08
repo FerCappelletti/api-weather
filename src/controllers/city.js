@@ -2,6 +2,7 @@ const City = require("../models/city");
 const Map = require("../services/map");
 
 const getInitialData = async (req, res) => {
+  
   const cities = await City.find();
   let n = Math.floor(Math.random() * cities.length);
   const city = cities[n];

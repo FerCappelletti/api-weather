@@ -4,15 +4,15 @@ const citySchema = new Schema(
   {
     name: String,
     coord: {
-      lon: Number,
-      lat: Number,
+      lon: String,
+      lat: String,
     },
     main: {
-      temp: Number,
-      temp_min: Number,
-      temp_max: Number,
-      pressure: Number,
-      humidity: Number,
+      temp: String,
+      temp_min: String,
+      temp_max: String,
+      pressure: String,
+      humidity: String,
     },
   }
 );

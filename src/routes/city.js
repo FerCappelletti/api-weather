@@ -6,5 +6,4 @@ api.get("/", cityController.getInitialData);
 api.get("/all", cityController.getAllData);
 api.get("/find/:name", cityController.getOneByName);
 
-
 module.exports = api;

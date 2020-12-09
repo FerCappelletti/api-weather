@@ -1,4 +1,4 @@
-# api-weather devuelve datos alojados en una db no relacional (MongoDB) de capitales/provincias/ciudades y latitud/longitud para poder utilizar sus coordenadas geográficas
+# Api-weather devuelve datos alojados en una db no relacional (MongoDB) de capitales/provincias/ciudades y latitud/longitud para poder utilizar sus coordenadas geográficas
 Recursos y tecnologías implementadas
 Node js
 Express
@@ -31,3 +31,5 @@ npm run dev
 
 Abrira el servidor en tu local en el puerto 3000 y generará la base de datos
 
+
+Deploy url: https://mcf-api.herokuapp.com/
